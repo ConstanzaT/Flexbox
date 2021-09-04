@@ -1,6 +1,16 @@
-#padre{
-    width:600px;
+header{
+    height:70px;
+    background-color: rebeccapurple;
 }
-div{
+#padre{
+    width:400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+#padre > div{
     border:1px solid black;
+    width:100px;
+    height:100px;
+    margin:10px;
 }
